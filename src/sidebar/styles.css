@@ -1,4 +1,11 @@
 .container {
     border: 1px solid black;
     grid-area: sidebar;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;     */
+}
+
+.header {
+    align-self: center;
 }
