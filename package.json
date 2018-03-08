@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node ./node_modules/parcel-bundler/bin/cli.js index.html --open",
-    "build": "node ./node_modules/parcel-bundler/bin/cli.js index.html --public-url /IgnitusDev/",
+    "build": "node ./node_modules/parcel-bundler/bin/cli.js build index.html --public-url /IgnitusDev/",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
