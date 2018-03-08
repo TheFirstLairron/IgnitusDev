@@ -20,7 +20,9 @@
   },
   "homepage": "http://www.ignitusdev.com",
   "dependencies": {
+    "postcss-modules": "^1.1.0",
     "react": "^16.2.0",
+    "react-css-modules": "^4.7.1",
     "react-dom": "^16.2.0"
   },
   "devDependencies": {
