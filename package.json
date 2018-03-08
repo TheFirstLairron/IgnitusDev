@@ -7,7 +7,7 @@
     "start": "node ./node_modules/parcel-bundler/bin/cli.js index.html --open",
     "build": "node ./node_modules/parcel-bundler/bin/cli.js build index.html --public-url /IgnitusDev/",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
