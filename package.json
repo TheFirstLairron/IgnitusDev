@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node ./node_modules/parcel-bundler/bin/cli.js index.html --open",
-    "build": "node ./node_modules/parcel-bundler/bin/cli.js build index.html --public-url www.ignitusdev.com",
+    "start": "cross-env NODE_ENV=development parcel index.html --open",
+    "build": "cross-env NODE_ENV=production parcel build index.html --public-url www.ignitusdev.com",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
@@ -24,8 +24,9 @@
     "react-dom": "^16.2.0"
   },
   "devDependencies": {
+    "babel-core": "^6.26.0",
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
-    "parcel-bundler": "^1.6.2"
+    "gh-pages": "^1.1.0"
   }
 }
