@@ -1,9 +1,9 @@
 .container {
     display: grid;
     grid-template: 
-        "header header header"
-        "sidebar content content"
-        "footer footer footer";
+        "header header header header header"
+        "content content content content content"
+        "footer footer footer footer footer";
     grid-template-rows: auto 1fr auto;
     grid-gap: 1px;
     min-height: 100vh;

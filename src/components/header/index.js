@@ -2,15 +2,14 @@ import React from 'react';
 import CSSModules from 'react-css-modules';
 import styles from './styles.css';
 
-class Sidebar extends React.Component {
+class Header extends React.Component {
     render() {
-        return (
+        return(
             <div styleName="container">
-                <div styleName="header">Navigation:</div>
-                <button>Stuff</button>
+                <div styleName="header">Zachary Allnutt's Resume</div>
             </div>
         );
     }
 }
 
-export default CSSModules(Sidebar, styles);
+export default CSSModules(Header, styles);

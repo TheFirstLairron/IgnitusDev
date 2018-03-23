@@ -1,0 +1,9 @@
+.container {
+    font-size: 2em;
+    display: flex;
+    grid-area: content;
+}
+
+.inner {
+    justify-content: space-around;
+}
